@@ -2,7 +2,8 @@
 This project aims to explore and analyze data collected by a team of Polish economists studying bankruptcy. The main objective of this project is to build a model that can predict whether a company will go bankrupt or not using machine learning algorithms such as Random Forest and Gradient Boosting. The project also includes an interactive dashboard that shows how company profit and losses change in relationship to the model's probability threshold.
 
 # Data Source
-The data used in this project was sourced from [https://www.emis.com/]. The dataset was compressed into a gzip file and was stored in JSON format. The dataset contains information about various companies in Poland, including their financial information, legal information, and other relevant variables. 
+The data used in this project was sourced from [here](https://www.emis.com/). The dataset was compressed into a gzip file and was stored in JSON format. The dataset contains information about various companies in Poland, including their financial information, legal information, and other relevant variables. 
+
 
 # Data Wrangling
 The initial data was in JSON format and compressed, so it was converted to a dictionary after decompression and then turned into a Pandas dataframe. The dataset contained missing data, which were imputed using the median, considering its skewness. The data was also imbalanced, so I used oversampling to balance the dataset. 
